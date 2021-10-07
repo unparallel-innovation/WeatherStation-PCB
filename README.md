@@ -1,7 +1,8 @@
 # Unparallel Weather Station PCB
 
 The Weather Station PCB is a board that together with, Software and 3D case allows anyone to build their low-cost weather station. The Weather Station PCB was made open source, so we are sharing in this repository the custom PCB design (Eagle and Gerbers files) and other information, as the BOM and item lists. The software for the weather station is also open-source and can be used as is, or freely customized to meet your own needs and requirements. A model for printing a 3D case for your weather station is also provided (both in other repositories).  
-image  
+![WS_PCB](https://user-images.githubusercontent.com/30501484/136415355-d19d7c62-3dcd-4b11-bc45-769a011f574f.jpg)
+
 
 The Weather Station PCB using low-cost hardware and a LoPy4 board. The LoPy4 board is equipped with several connectivity options (e.g. Sigfox, LoRa, Wi-Fi and Bluetooth). Currently, the weather station uses Sigfox and/or Wi-Fi to send the data to the cloud, however, the software can be extended to support other connectivity options. A Grafana dashboard is then used to display the historical weather data that is stored on the cloud.
 
