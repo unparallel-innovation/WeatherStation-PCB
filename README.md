@@ -30,6 +30,7 @@ Note: the custom Weather Station PCB may be ordered via [PCBWay shared project l
 *	[Li-Ion battery (3.65V - 8000mAh)](https://www.tme.eu/en/details/cl-18650-29e_1s3p/rechargeable-batteries/cellevia-batteries/)
 *	[Solar Panel (2.5W - 116x160mm)](https://www.seeedstudio.com/2-5W-Solar-Panel-116X160.html)
 *	[Sigfox Antenna Kit (868MHz)](https://pycom.io/product/lora-868mhz-915mhz-sigfox-antenna-kit/)
+* [Expansion Board 3.0](https://pycom.io/product/expansion-board-3-0/)
 
 ## Related Repositories:
 *	[Unparallel WeatherStation Enclosure](https://github.com/unparallel-innovation/WeatherStation-Enclosure)

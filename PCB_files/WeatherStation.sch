@@ -15327,9 +15327,9 @@ chip</description>
 </class>
 </classes>
 <parts>
-<part name="SOLAR_POWER" library="con-wago-500" deviceset="W237-102" device=""/>
-<part name="D3" library="diode" deviceset="SCHOTTKY-DIODE" device="SMA_SOD-128_PROTO" value="RFN2LAM4STFTR/SS14L"/>
-<part name="SENSOR1" library="con-wago-500" deviceset="W237-4" device=""/>
+<part name="JP8" library="con-wago-500" deviceset="W237-102" device=""/>
+<part name="D3" library="diode" deviceset="SCHOTTKY-DIODE" device="SMA_SOD-128_PROTO" value="RFN2LAM4STFTR"/>
+<part name="JP9" library="con-wago-500" deviceset="W237-4" device=""/>
 <part name="FRAME1" library="frames_edit" deviceset="A4P-LOC" device=""/>
 <part name="R1" library="rcl_imp" deviceset="R-EU_" device="R0603" value="1k"/>
 <part name="D1" library="diode" deviceset="SCHOTTKY-DIODE" device="SUB_SMA_PROTO" value="SS14L"/>
@@ -15356,10 +15356,10 @@ chip</description>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="R8" library="rcl_imp" deviceset="R-EU_" device="R0603/R0805_PROTO_SLIM" value="220k"/>
+<part name="R8" library="rcl_imp" deviceset="R-EU_" device="R0603/R0805_PROTO_SLIM" value="22k"/>
 <part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
-<part name="J1_RAIN" library="SparkFun-Connectors" deviceset="RJ11-6" device="" value="RJ11"/>
-<part name="J2_WIND" library="SparkFun-Connectors" deviceset="RJ11-6" device="" value="RJ11"/>
+<part name="J1" library="SparkFun-Connectors" deviceset="RJ11-6" device="" value="RJ11"/>
+<part name="J2" library="SparkFun-Connectors" deviceset="RJ11-6" device="" value="RJ11"/>
 <part name="U1" library="Texas Instruments_By_element14_Batch_1_new" deviceset="INA219BIDCNT" device=""/>
 <part name="R10" library="rcl_imp" deviceset="R-EU_" device="R0603/R0805_PROTO_SLIM" value="200m"/>
 <part name="R11" library="rcl_imp" deviceset="R-EU_" device="R0603" value="10R"/>
@@ -15374,20 +15374,20 @@ chip</description>
 <part name="R14" library="rcl_imp" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="R15" library="rcl_imp" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="+3V13" library="supply1" deviceset="+3V3" device=""/>
-<part name="R16" library="rcl_imp" deviceset="R-EU_" device="R0603" value="CC/10k"/>
+<part name="R16" library="rcl_imp" deviceset="R-EU_" device="R0603" value="0R"/>
 <part name="R17" library="rcl_imp" deviceset="R-EU_" device="R0603" value="NC"/>
-<part name="LED1" library="led" deviceset="LED" device="CHIP-LED0805"/>
+<part name="LED1" library="led" deviceset="LED" device="CHIP-LED0805" value="Green_LED"/>
 <part name="R18" library="rcl_imp" deviceset="R-EU_" device="R0603" value="1k"/>
-<part name="DC_IN" library="con-wago-500" deviceset="W237-102" device=""/>
-<part name="D10" library="diode" deviceset="SCHOTTKY-DIODE" device="SMA_SOD-128_PROTO" value="RFN2LAM4STFTR/SS14L"/>
+<part name="JP7" library="con-wago-500" deviceset="W237-102" device=""/>
+<part name="D10" library="diode" deviceset="SCHOTTKY-DIODE" device="SMA_SOD-128_PROTO" value="RFN2LAM4STFTR"/>
 <part name="U$2" library="pycom_lib_edit" deviceset="LOPY4_SHIELD" device=""/>
 <part name="Q1" library="transistor-fet" deviceset="SI2333DDS" device="PROTO_SLIM" value="SI2333DDS"/>
 <part name="R20" library="rcl_imp" deviceset="R-EU_" device="R0603" value="100k"/>
 <part name="R22" library="rcl_imp" deviceset="R-EU_" device="R0603" value="47k"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="NCDW-06" library="pinhead" deviceset="PINHD-1X6" device=""/>
+<part name="JP5" library="pinhead" deviceset="PINHD-1X6" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="U2" library="microbuilder" deviceset="MCP73831/2" device=""/>
+<part name="U2" library="microbuilder" deviceset="MCP73831/2" device="" value="MCP73831T"/>
 <part name="CN1" library="adafruit_edit" deviceset="JST_2PIN" device="-SMT-RA" value="S2B-PH-SM4"/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="F1" library="ptc-ntc" deviceset="PTC" device="-0603_0805_PROTO_SLIM" value="0ZCK0075FF2E"/>
@@ -15424,7 +15424,7 @@ chip</description>
 <part name="R30" library="rcl_imp" deviceset="R-EU_" device="R0603/R0805_PROTO_SLIM" value="100k"/>
 <part name="U3" library="PatternAgents-TI" deviceset="SN74AUP2G14" device="-DCKR" value="SN74AUP2G14DCKR"/>
 <part name="C6" library="rcl_imp" deviceset="C-EU" device="C0603/C0805_PROTO_SLIM" value="1u"/>
-<part name="NCDW-01" library="pinhead" deviceset="PINHD-1X7" device=""/>
+<part name="JP6" library="pinhead" deviceset="PINHD-1X7" device=""/>
 <part name="C9" library="rcl_imp" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
 <part name="R31" library="rcl_imp" deviceset="R-EU_" device="R0603/R0805_PROTO_SLIM" value="NC/0R"/>
@@ -15440,9 +15440,10 @@ chip</description>
 <part name="D9" library="diode" deviceset="DIODE-" device="DO15-12" value="1N5339B"/>
 <part name="Q8" library="transistor-fet" deviceset="NX7002AK" device="PROTO_SLIM" value="NC/BSS138"/>
 <part name="R35" library="rcl_imp" deviceset="R-EU_" device="R0603" value="NC/10k"/>
-<part name="Q9" library="transistor-fet" deviceset="SI2333DDS" device="PROTO_SLIM" value="NC/SI2333DDS"/>
+<part name="Q9" library="transistor-fet" deviceset="SI2333DDS" device="PROTO_SLIM" value="SI2333DDS"/>
 <part name="C10" library="rcl_imp" deviceset="C-EU" device="C0603/C0805_PROTO_SLIM" value="1u"/>
 <part name="R36" library="rcl_imp" deviceset="R-EU_" device="R0603/R0805_PROTO_SLIM" value="200k"/>
+<part name="R37" library="rcl_imp" deviceset="R-EU_" device="R0603" value="0R"/>
 </parts>
 <sheets>
 <sheet>
@@ -15546,13 +15547,13 @@ VIN to BAT_FUSE</text>
 <wire x1="170.18" y1="111.76" x2="160.02" y2="111.76" width="0.1524" layer="98"/>
 </plain>
 <instances>
-<instance part="SOLAR_POWER" gate="-1" x="27.94" y="254"/>
-<instance part="SOLAR_POWER" gate="-2" x="27.94" y="248.92"/>
+<instance part="JP8" gate="-1" x="27.94" y="254"/>
+<instance part="JP8" gate="-2" x="27.94" y="248.92"/>
 <instance part="D3" gate="G$1" x="134.62" y="208.28"/>
-<instance part="SENSOR1" gate="-1" x="73.66" y="121.92"/>
-<instance part="SENSOR1" gate="-2" x="73.66" y="116.84"/>
-<instance part="SENSOR1" gate="-3" x="73.66" y="111.76"/>
-<instance part="SENSOR1" gate="-4" x="73.66" y="106.68"/>
+<instance part="JP9" gate="-1" x="73.66" y="121.92"/>
+<instance part="JP9" gate="-2" x="73.66" y="116.84"/>
+<instance part="JP9" gate="-3" x="73.66" y="111.76"/>
+<instance part="JP9" gate="-4" x="73.66" y="106.68"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="R1" gate="G$1" x="30.48" y="83.82" smashed="yes">
 <attribute name="NAME" x="26.67" y="85.4075" size="1.778" layer="95"/>
@@ -15593,8 +15594,8 @@ VIN to BAT_FUSE</text>
 <instance part="GND9" gate="1" x="20.32" y="116.84"/>
 <instance part="R8" gate="G$1" x="63.5" y="149.86" rot="R90"/>
 <instance part="+3V8" gate="G$1" x="63.5" y="160.02"/>
-<instance part="J1_RAIN" gate="G$1" x="17.78" y="83.82" rot="MR180"/>
-<instance part="J2_WIND" gate="G$1" x="22.86" y="154.94" rot="MR270"/>
+<instance part="J1" gate="G$1" x="17.78" y="83.82" rot="MR180"/>
+<instance part="J2" gate="G$1" x="22.86" y="154.94" rot="MR270"/>
 <instance part="U1" gate="A" x="86.36" y="236.22"/>
 <instance part="R10" gate="G$1" x="22.86" y="236.22"/>
 <instance part="R11" gate="G$1" x="12.7" y="226.06" rot="R90"/>
@@ -15613,8 +15614,8 @@ VIN to BAT_FUSE</text>
 <instance part="R17" gate="G$1" x="48.26" y="226.06" rot="R270"/>
 <instance part="LED1" gate="G$1" x="15.24" y="35.56"/>
 <instance part="R18" gate="G$1" x="15.24" y="22.86" rot="R90"/>
-<instance part="DC_IN" gate="-1" x="154.94" y="254"/>
-<instance part="DC_IN" gate="-2" x="154.94" y="246.38"/>
+<instance part="JP7" gate="-1" x="154.94" y="254"/>
+<instance part="JP7" gate="-2" x="154.94" y="246.38"/>
 <instance part="D10" gate="G$1" x="167.64" y="246.38" smashed="yes">
 <attribute name="NAME" x="165.735" y="248.285" size="1.778" layer="95"/>
 <attribute name="VALUE" x="147.955" y="242.57" size="1.778" layer="96"/>
@@ -15624,7 +15625,7 @@ VIN to BAT_FUSE</text>
 <instance part="R20" gate="G$1" x="157.48" y="200.66" rot="R180"/>
 <instance part="R22" gate="G$1" x="170.18" y="200.66" rot="R90"/>
 <instance part="GND11" gate="1" x="162.56" y="175.26"/>
-<instance part="NCDW-06" gate="A" x="137.16" y="83.82"/>
+<instance part="JP5" gate="A" x="137.16" y="83.82"/>
 <instance part="GND10" gate="1" x="124.46" y="96.52" rot="R270"/>
 <instance part="U2" gate="G$1" x="134.62" y="50.8"/>
 <instance part="CN1" gate="G$1" x="48.26" y="30.48"/>
@@ -15666,7 +15667,7 @@ VIN to BAT_FUSE</text>
 <instance part="R30" gate="G$1" x="162.56" y="30.48" rot="R180"/>
 <instance part="U3" gate="G$1" x="40.64" y="180.34"/>
 <instance part="C6" gate="G$1" x="76.2" y="25.4" rot="R180"/>
-<instance part="NCDW-01" gate="A" x="152.4" y="86.36"/>
+<instance part="JP6" gate="A" x="152.4" y="86.36"/>
 <instance part="C9" gate="G$1" x="17.78" y="175.26" rot="R90"/>
 <instance part="GND23" gate="1" x="7.62" y="172.72"/>
 <instance part="R31" gate="G$1" x="40.64" y="200.66"/>
@@ -15694,13 +15695,14 @@ VIN to BAT_FUSE</text>
 <instance part="Q9" gate="G$1" x="73.66" y="93.98" rot="R270"/>
 <instance part="C10" gate="G$1" x="81.28" y="86.36" rot="R180"/>
 <instance part="R36" gate="G$1" x="60.96" y="93.98" rot="R90"/>
+<instance part="R37" gate="G$1" x="167.64" y="162.56" rot="R180"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="SOLAR_POWER" gate="-1" pin="KL"/>
+<pinref part="JP8" gate="-1" pin="KL"/>
 <wire x1="33.02" y1="254" x2="40.64" y2="254" width="0.1524" layer="91"/>
 <label x="40.64" y="254" size="1.778" layer="95"/>
 </segment>
@@ -15759,7 +15761,7 @@ VIN to BAT_FUSE</text>
 <junction x="66.04" y="220.98"/>
 </segment>
 <segment>
-<pinref part="DC_IN" gate="-1" pin="KL"/>
+<pinref part="JP7" gate="-1" pin="KL"/>
 <wire x1="160.02" y1="254" x2="167.64" y2="254" width="0.1524" layer="91"/>
 <label x="167.64" y="254" size="1.778" layer="95"/>
 </segment>
@@ -15830,7 +15832,7 @@ VIN to BAT_FUSE</text>
 <pinref part="Q6" gate="G$1" pin="S"/>
 </segment>
 <segment>
-<pinref part="NCDW-06" gate="A" pin="1"/>
+<pinref part="JP5" gate="A" pin="1"/>
 <wire x1="134.62" y1="91.44" x2="127" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="127" y1="91.44" x2="127" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="GND10" gate="1" pin="GND"/>
@@ -15863,7 +15865,7 @@ VIN to BAT_FUSE</text>
 <pinref part="GND16" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="SENSOR1" gate="-4" pin="KL"/>
+<pinref part="JP9" gate="-4" pin="KL"/>
 <wire x1="78.74" y1="106.68" x2="81.28" y2="106.68" width="0.1524" layer="91"/>
 <label x="81.28" y="106.68" size="1.778" layer="95"/>
 </segment>
@@ -15884,7 +15886,7 @@ VIN to BAT_FUSE</text>
 <pinref part="Q5" gate="G$1" pin="S"/>
 </segment>
 <segment>
-<pinref part="NCDW-01" gate="A" pin="4"/>
+<pinref part="JP6" gate="A" pin="4"/>
 <wire x1="149.86" y1="86.36" x2="144.78" y2="86.36" width="0.1524" layer="91"/>
 <label x="144.78" y="86.36" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -16015,7 +16017,7 @@ VIN to BAT_FUSE</text>
 <label x="15.24" y="185.42" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="NCDW-01" gate="A" pin="5"/>
+<pinref part="JP6" gate="A" pin="5"/>
 <wire x1="149.86" y1="83.82" x2="144.78" y2="83.82" width="0.1524" layer="91"/>
 <label x="144.78" y="83.82" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -16033,7 +16035,7 @@ VIN to BAT_FUSE</text>
 </net>
 <net name="SCL" class="0">
 <segment>
-<pinref part="SENSOR1" gate="-2" pin="KL"/>
+<pinref part="JP9" gate="-2" pin="KL"/>
 <wire x1="78.74" y1="116.84" x2="81.28" y2="116.84" width="0.1524" layer="91"/>
 <label x="81.28" y="116.84" size="1.778" layer="95"/>
 </segment>
@@ -16054,13 +16056,13 @@ VIN to BAT_FUSE</text>
 </segment>
 <segment>
 <label x="144.78" y="81.28" size="1.778" layer="95" rot="R180"/>
-<pinref part="NCDW-01" gate="A" pin="6"/>
+<pinref part="JP6" gate="A" pin="6"/>
 <wire x1="149.86" y1="81.28" x2="144.78" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SDA" class="0">
 <segment>
-<pinref part="SENSOR1" gate="-1" pin="KL"/>
+<pinref part="JP9" gate="-1" pin="KL"/>
 <wire x1="78.74" y1="121.92" x2="81.28" y2="121.92" width="0.1524" layer="91"/>
 <label x="81.28" y="121.92" size="1.778" layer="95"/>
 </segment>
@@ -16086,7 +16088,7 @@ VIN to BAT_FUSE</text>
 </segment>
 <segment>
 <label x="144.78" y="78.74" size="1.778" layer="95" rot="R180"/>
-<pinref part="NCDW-01" gate="A" pin="7"/>
+<pinref part="JP6" gate="A" pin="7"/>
 <wire x1="149.86" y1="78.74" x2="144.78" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -16152,13 +16154,13 @@ VIN to BAT_FUSE</text>
 <net name="N$4" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="J1_RAIN" gate="G$1" pin="3"/>
+<pinref part="J1" gate="G$1" pin="3"/>
 <wire x1="25.4" y1="83.82" x2="22.86" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="J1_RAIN" gate="G$1" pin="4"/>
+<pinref part="J1" gate="G$1" pin="4"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="22.86" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
 </segment>
@@ -16166,14 +16168,14 @@ VIN to BAT_FUSE</text>
 <net name="N$5" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
-<pinref part="J2_WIND" gate="G$1" pin="2"/>
+<pinref part="J2" gate="G$1" pin="2"/>
 <wire x1="27.94" y1="144.78" x2="25.4" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="144.78" x2="25.4" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="J2_WIND" gate="G$1" pin="3"/>
+<pinref part="J2" gate="G$1" pin="3"/>
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="22.86" y1="149.86" x2="22.86" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="139.7" x2="25.4" y2="139.7" width="0.1524" layer="91"/>
@@ -16181,14 +16183,14 @@ VIN to BAT_FUSE</text>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="J2_WIND" gate="G$1" pin="4"/>
+<pinref part="J2" gate="G$1" pin="4"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="20.32" y1="149.86" x2="20.32" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="J2_WIND" gate="G$1" pin="5"/>
+<pinref part="J2" gate="G$1" pin="5"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="17.78" y1="149.86" x2="17.78" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="134.62" x2="12.7" y2="134.62" width="0.1524" layer="91"/>
@@ -16244,7 +16246,7 @@ VIN to BAT_FUSE</text>
 </net>
 <net name="+VIN2" class="0">
 <segment>
-<pinref part="DC_IN" gate="-2" pin="KL"/>
+<pinref part="JP7" gate="-2" pin="KL"/>
 <pinref part="D10" gate="G$1" pin="A"/>
 <wire x1="160.02" y1="246.38" x2="162.56" y2="246.38" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="246.38" x2="165.1" y2="246.38" width="0.1524" layer="91"/>
@@ -16254,7 +16256,7 @@ VIN to BAT_FUSE</text>
 <label x="165.1" y="238.76" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="NCDW-06" gate="A" pin="2"/>
+<pinref part="JP5" gate="A" pin="2"/>
 <wire x1="134.62" y1="88.9" x2="127" y2="88.9" width="0.1524" layer="91"/>
 <label x="127" y="88.9" size="1.778" layer="95" rot="MR0"/>
 </segment>
@@ -16384,7 +16386,7 @@ VIN to BAT_FUSE</text>
 <label x="111.76" y="149.86" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="NCDW-06" gate="A" pin="5"/>
+<pinref part="JP5" gate="A" pin="5"/>
 <wire x1="134.62" y1="81.28" x2="127" y2="81.28" width="0.1524" layer="91"/>
 <label x="127" y="81.28" size="1.778" layer="95" rot="MR0"/>
 </segment>
@@ -16396,7 +16398,7 @@ VIN to BAT_FUSE</text>
 <label x="111.76" y="147.32" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="NCDW-06" gate="A" pin="4"/>
+<pinref part="JP5" gate="A" pin="4"/>
 <wire x1="134.62" y1="83.82" x2="127" y2="83.82" width="0.1524" layer="91"/>
 <label x="127" y="83.82" size="1.778" layer="95" rot="MR0"/>
 </segment>
@@ -16408,7 +16410,7 @@ VIN to BAT_FUSE</text>
 <label x="111.76" y="144.78" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="NCDW-06" gate="A" pin="3"/>
+<pinref part="JP5" gate="A" pin="3"/>
 <wire x1="134.62" y1="86.36" x2="127" y2="86.36" width="0.1524" layer="91"/>
 <label x="127" y="86.36" size="1.778" layer="95" rot="MR0"/>
 </segment>
@@ -16420,7 +16422,7 @@ VIN to BAT_FUSE</text>
 <label x="111.76" y="142.24" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="NCDW-06" gate="A" pin="6"/>
+<pinref part="JP5" gate="A" pin="6"/>
 <wire x1="134.62" y1="78.74" x2="127" y2="78.74" width="0.1524" layer="91"/>
 <label x="127" y="78.74" size="1.778" layer="95" rot="MR0"/>
 </segment>
@@ -16533,7 +16535,7 @@ VIN to BAT_FUSE</text>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="SOLAR_POWER" gate="-2" pin="KL"/>
+<pinref part="JP8" gate="-2" pin="KL"/>
 <pinref part="F2" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="248.92" x2="33.02" y2="248.92" width="0.1524" layer="91"/>
 </segment>
@@ -16668,7 +16670,7 @@ VIN to BAT_FUSE</text>
 </net>
 <net name="TX1" class="0">
 <segment>
-<pinref part="NCDW-01" gate="A" pin="2"/>
+<pinref part="JP6" gate="A" pin="2"/>
 <wire x1="149.86" y1="91.44" x2="144.78" y2="91.44" width="0.1524" layer="91"/>
 <label x="144.78" y="91.44" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -16680,7 +16682,7 @@ VIN to BAT_FUSE</text>
 </net>
 <net name="RX1" class="0">
 <segment>
-<pinref part="NCDW-01" gate="A" pin="1"/>
+<pinref part="JP6" gate="A" pin="1"/>
 <wire x1="149.86" y1="93.98" x2="144.78" y2="93.98" width="0.1524" layer="91"/>
 <label x="144.78" y="93.98" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -16718,7 +16720,7 @@ VIN to BAT_FUSE</text>
 <junction x="147.32" y="149.86"/>
 </segment>
 <segment>
-<pinref part="NCDW-01" gate="A" pin="3"/>
+<pinref part="JP6" gate="A" pin="3"/>
 <wire x1="149.86" y1="88.9" x2="144.78" y2="88.9" width="0.1524" layer="91"/>
 <label x="144.78" y="88.9" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -16756,7 +16758,7 @@ VIN to BAT_FUSE</text>
 <wire x1="86.36" y1="93.98" x2="86.36" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SENSOR1" gate="-3" pin="KL"/>
+<pinref part="JP9" gate="-3" pin="KL"/>
 <wire x1="78.74" y1="111.76" x2="81.28" y2="111.76" width="0.1524" layer="91"/>
 <label x="81.28" y="111.76" size="1.778" layer="95"/>
 </segment>
