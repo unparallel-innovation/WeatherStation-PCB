@@ -1,3 +1,14 @@
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
+
 # Unparallel Weather Station PCB
 
 The Weather Station PCB is a board that together with, Software and 3D case allows anyone to build their low-cost weather station. The Weather Station PCB was made open source, so we are sharing in this repository the custom PCB design (Eagle and Gerbers files) and other information, as the BOM and item lists. The software for the weather station is also open-source and can be used as is, or freely customized to meet your own needs and requirements. A model for printing a 3D case for your weather station is also provided (both in other repositories).  
@@ -12,7 +23,7 @@ Note: the custom Weather Station PCB may be ordered via [PCBWay shared project l
 #### Measured parameters:
 *	Temperature (ºC)
 *	Relative Humidity (%)
-*	Rain (mm/h)
+*	Rainfall (mm/h)
 *	Wind Speed (km/h)
 *	Wind Gust Speed (km/h)
 *	Wind Direction (degrees)
