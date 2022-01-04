@@ -44,6 +44,7 @@ Note: the custom Weather Station PCB may be ordered via [PCBWay shared project l
 
 ## Related Repositories:
 *	[Unparallel WeatherStation Enclosure](https://github.com/unparallel-innovation/WeatherStation-Enclosure)
+*	[Unparallel WeatherStation Documentation](https://github.com/unparallel-innovation/WeatherStation-Documentation)
 *	[Unparallel WeatherStation Software](https://github.com/unparallel-innovation/WeatherStation-Software)
 *	[Unparallel WeatherStation Connector](https://github.com/unparallel-innovation/WeatherStation-Connector)
 
