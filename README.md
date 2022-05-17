@@ -13,7 +13,8 @@ This work is licensed under a
 
 The Weather Station PCB is a board that together with, Software and 3D case allows anyone to build their low-cost weather station. The Weather Station PCB was made open source, so we are sharing in this repository the custom PCB design (Eagle and Gerbers files) and other information, as the BOM and item lists. The software for the weather station is also open-source and can be used as is, or freely customized to meet your own needs and requirements. A model for printing a 3D case for your weather station is also provided (both in other repositories).  
 
-![WeatherStation_3D_2021_layout_image](https://user-images.githubusercontent.com/30501484/138290803-926b071a-b2ed-4053-8585-f511cac5fa65.png)
+![WeatherStation_3D_2202](https://user-images.githubusercontent.com/30501484/168840367-de963c8a-c3b9-4ac0-a533-6aed916104d4.png)
+
 The Weather Station PCB using low-cost hardware and a LoPy4 board. The LoPy4 board is equipped with several connectivity options (e.g. Sigfox, LoRa, Wi-Fi and Bluetooth). Currently, the weather station uses Sigfox and/or Wi-Fi to send the data to the cloud, however, the software can be extended to support other connectivity options. A Grafana dashboard is then used to display the historical weather data that is stored on the cloud.
 
 The weather station uses an external sensor (AM2315) for reading temperature and relative humidity, a weather meter kit (SEN-15901) for wind speed, wind direction and precipitation. The weather station is powered from a Li-Ion battery that is charged with a photovoltaic panel which is also used to measure solar radiation. Due to the system’s low-power operation and solar energy harvesting features, it is energy autonomous and can be deployed in remote places.
